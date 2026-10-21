@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_1_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="design_1_wrapper_tb" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="12,735.578 ns"></ZoomStartTime>
+      <ZoomEndTime time="13,010.168 ns"></ZoomEndTime>
+      <Cursor1Time time="12,146.723 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="272"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="83" />
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_ARADDR">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_ARADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_ARADDR[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_ARPROT">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_ARREADY">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_ARVALID">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_AWADDR">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_AWADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_AWADDR[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_AWPROT">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_AWREADY">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_AWVALID">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_BREADY">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_BRESP">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_BVALID">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_RREADY">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_RRESP">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_RVALID">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_WDATA">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_WREADY">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_WSTRB">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_WVALID">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axis_generator_0_m_axis_TDATA">
+      <obj_property name="ElementShortName">axis_generator_0_m_axis_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_generator_0_m_axis_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axis_generator_0_m_axis_TREADY">
+      <obj_property name="ElementShortName">axis_generator_0_m_axis_TREADY</obj_property>
+      <obj_property name="ObjectShortName">axis_generator_0_m_axis_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/axis_generator_0_m_axis_TVALID">
+      <obj_property name="ElementShortName">axis_generator_0_m_axis_TVALID</obj_property>
+      <obj_property name="ObjectShortName">axis_generator_0_m_axis_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/clk_100MHz">
+      <obj_property name="ElementShortName">clk_100MHz</obj_property>
+      <obj_property name="ObjectShortName">clk_100MHz</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/axi_smc_M00_AXI_RDATA">
+      <obj_property name="ElementShortName">axi_smc_M00_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_smc_M00_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_RDATA">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/clk_wiz_1_locked">
+      <obj_property name="ElementShortName">clk_wiz_1_locked</obj_property>
+      <obj_property name="ObjectShortName">clk_wiz_1_locked</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0_m_axis_TDATA">
+      <obj_property name="ElementShortName">echo_ip_0_m_axis_TDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">echo_ip_0_m_axis_TDATA[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0_m_axis_TREADY">
+      <obj_property name="ElementShortName">echo_ip_0_m_axis_TREADY</obj_property>
+      <obj_property name="ObjectShortName">echo_ip_0_m_axis_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0_m_axis_TVALID">
+      <obj_property name="ElementShortName">echo_ip_0_m_axis_TVALID</obj_property>
+      <obj_property name="ObjectShortName">echo_ip_0_m_axis_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/last_sample">
+      <obj_property name="ElementShortName">last_sample[15:0]</obj_property>
+      <obj_property name="ObjectShortName">last_sample[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/mdm_1_debug_sys_rst">
+      <obj_property name="ElementShortName">mdm_1_debug_sys_rst</obj_property>
+      <obj_property name="ObjectShortName">mdm_1_debug_sys_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_Clk">
+      <obj_property name="ElementShortName">microblaze_0_Clk</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_Clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_ARADDR">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_ARPROT">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_ARPROT[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_ARREADY">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_ARVALID">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_AWADDR">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_AWPROT">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_AWPROT[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_AWREADY">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_AWVALID">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_BREADY">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_BREADY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_BRESP">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_BRESP[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_BVALID">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_BVALID</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_RREADY">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_RREADY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_RRESP">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_RRESP[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_RVALID">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_RVALID</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_WDATA">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_WREADY">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_WREADY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_WSTRB">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_WSTRB[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_M_AXI_DP_WVALID">
+      <obj_property name="ElementShortName">microblaze_0_M_AXI_DP_WVALID</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_M_AXI_DP_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_CAPTURE">
+      <obj_property name="ElementShortName">microblaze_0_debug_CAPTURE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_CAPTURE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_CLK">
+      <obj_property name="ElementShortName">microblaze_0_debug_CLK</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_DISABLE">
+      <obj_property name="ElementShortName">microblaze_0_debug_DISABLE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_DISABLE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_REG_EN">
+      <obj_property name="ElementShortName">microblaze_0_debug_REG_EN[0:7]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_REG_EN[0:7]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_RST">
+      <obj_property name="ElementShortName">microblaze_0_debug_RST</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_RST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_SHIFT">
+      <obj_property name="ElementShortName">microblaze_0_debug_SHIFT</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_SHIFT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_TDI">
+      <obj_property name="ElementShortName">microblaze_0_debug_TDI</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_TDI</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_TDO">
+      <obj_property name="ElementShortName">microblaze_0_debug_TDO</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_TDO</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_debug_UPDATE">
+      <obj_property name="ElementShortName">microblaze_0_debug_UPDATE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_debug_UPDATE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_ABUS">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_ABUS[0:31]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_ABUS[0:31]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_ADDRSTROBE">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_ADDRSTROBE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_ADDRSTROBE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_BE">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_BE[0:3]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_BE[0:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_CE">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_CE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_CE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_READDBUS">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_READDBUS[0:31]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_READDBUS[0:31]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_READSTROBE">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_READSTROBE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_READSTROBE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_READY">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_READY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_READY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_UE">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_UE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_UE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_WAIT">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_WAIT</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_WAIT</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_WRITEDBUS">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_WRITEDBUS[0:31]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_WRITEDBUS[0:31]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_dlmb_1_WRITESTROBE">
+      <obj_property name="ElementShortName">microblaze_0_dlmb_1_WRITESTROBE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_dlmb_1_WRITESTROBE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_ABUS">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_ABUS[0:31]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_ABUS[0:31]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_ADDRSTROBE">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_ADDRSTROBE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_ADDRSTROBE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_CE">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_CE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_CE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_READDBUS">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_READDBUS[0:31]</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_READDBUS[0:31]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_READSTROBE">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_READSTROBE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_READSTROBE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_READY">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_READY</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_READY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_UE">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_UE</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_UE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/microblaze_0_ilmb_1_WAIT">
+      <obj_property name="ElementShortName">microblaze_0_ilmb_1_WAIT</obj_property>
+      <obj_property name="ObjectShortName">microblaze_0_ilmb_1_WAIT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/reset_rtl_0">
+      <obj_property name="ElementShortName">reset_rtl_0</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/rst_clk_wiz_1_100M_bus_struct_reset">
+      <obj_property name="ElementShortName">rst_clk_wiz_1_100M_bus_struct_reset[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rst_clk_wiz_1_100M_bus_struct_reset[0:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/rst_clk_wiz_1_100M_mb_reset">
+      <obj_property name="ElementShortName">rst_clk_wiz_1_100M_mb_reset</obj_property>
+      <obj_property name="ObjectShortName">rst_clk_wiz_1_100M_mb_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/rst_clk_wiz_1_100M_peripheral_aresetn">
+      <obj_property name="ElementShortName">rst_clk_wiz_1_100M_peripheral_aresetn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rst_clk_wiz_1_100M_peripheral_aresetn[0:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group370">
+      <obj_property name="label">echo_ip</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/s_axis_aclk">
+         <obj_property name="ElementShortName">s_axis_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aclk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/s_axis_resetn">
+         <obj_property name="ElementShortName">s_axis_resetn</obj_property>
+         <obj_property name="ObjectShortName">s_axis_resetn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/s_axis_tdata">
+         <obj_property name="ElementShortName">s_axis_tdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/s_axis_tvalid">
+         <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/m_axis_tready">
+         <obj_property name="ElementShortName">m_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/clear">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/delay">
+         <obj_property name="ElementShortName">delay[3:0]</obj_property>
+         <obj_property name="ObjectShortName">delay[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/shift">
+         <obj_property name="ElementShortName">shift[1:0]</obj_property>
+         <obj_property name="ObjectShortName">shift[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/m_axis_tdata">
+         <obj_property name="ElementShortName">m_axis_tdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tdata[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/m_axis_tvalid">
+         <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/s_axis_tready">
+         <obj_property name="ElementShortName">s_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/adder">
+         <obj_property name="ElementShortName">adder[16:0]</obj_property>
+         <obj_property name="ObjectShortName">adder[16:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/adder_reg">
+         <obj_property name="ElementShortName">adder_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">adder_reg[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/step">
+         <obj_property name="ElementShortName">step</obj_property>
+         <obj_property name="ObjectShortName">step</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/mux_out">
+         <obj_property name="ElementShortName">mux_out[16:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_out[16:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/out_valid">
+         <obj_property name="ElementShortName">out_valid</obj_property>
+         <obj_property name="ObjectShortName">out_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del">
+      <obj_property name="ElementShortName">echo_reg_del[7:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">echo_reg_del[7:0][15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[7]">
+         <obj_property name="ElementShortName">[7][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[6]">
+         <obj_property name="ElementShortName">[6][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[5]">
+         <obj_property name="ElementShortName">[5][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[4]">
+         <obj_property name="ElementShortName">[4][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[3]">
+         <obj_property name="ElementShortName">[3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[2]">
+         <obj_property name="ElementShortName">[2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[1]">
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[0]">
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[7]">
+         <obj_property name="ElementShortName">[7][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[6]">
+         <obj_property name="ElementShortName">[6][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[5]">
+         <obj_property name="ElementShortName">[5][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[4]">
+         <obj_property name="ElementShortName">[4][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[3]">
+         <obj_property name="ElementShortName">[3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[2]">
+         <obj_property name="ElementShortName">[2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[1]">
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/design_1_wrapper_tb/dut/design_1_i/echo_ip_0/inst/echo_ip_slave_lite_v1_0_S00_AXI_inst/echo_inst/echo_reg_del[0]">
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

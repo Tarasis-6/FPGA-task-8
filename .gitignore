@@ -1,0 +1,57 @@
+# ---- Vivado ----
+*.runs/
+*.gen/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.srcs/sources_1/bd/*/hdl/
+*.Xil/
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+vivado_pid*.debug
+webtalk*.log
+webtalk*.jou
+sin_lut.txt
+sinus_table.m
+*.srcs/sources_1/new/NCO.v
+*.srcs/sources_1/new/sin_lut.txt
+*.srcs/sources_1/new/axis_transformer.sv
+
+# ---- Vitis (Unified IDE) ----
+build-vitis/
+build-vivado/
+**/Debug/
+**/Release/
+*.o
+*.elf.bak
+
+# ---- Загальне ----
+*.Xil/
+*.sw_folder_convert/
+
+# Ignore build output directory
+/build
+/export
+
+# Ignore object files and dependent files
+*.o
+*.d
+
+#Ignore logs folder and log files
+/logs
+*.log
+
+#Ignore lock files
+*.lock
+
+*.bin
+*.pdi
+
+*.vitisWorkspace.json
+
+_ide/logs
+_ide/.wsdata
